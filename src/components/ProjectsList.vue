@@ -29,7 +29,6 @@ export default {
     setup() {
         const projects = ref(null);
         projects.value = json;
-        console.log(projects.value);
         return { projects };
     },
 };
@@ -39,7 +38,6 @@ export default {
 .projects-list {
     width: 100%;
     height: 100%;
-    /* background: red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +53,6 @@ export default {
     border: 2px dashed #00eb37;
 }
 .left {
-    /* background: blue; */
     width: 15%;
     height: 100%;
     color: #00eb37;
@@ -68,7 +65,6 @@ export default {
     border-right: 2px dashed #00eb37;
 }
 .right {
-    /* background: blue; */
     width: 15%;
     height: 100%;
     border-left: 2px dashed #00eb37;
@@ -77,7 +73,6 @@ export default {
     align-items: center;
 }
 .center {
-    /* background: green; */
     width: 70%;
     height: 100%;
     color: #00eb37;

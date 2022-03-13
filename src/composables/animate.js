@@ -1,10 +1,9 @@
 import anime from "animejs";
 
-export function translate(element) {
+export function pageAnimation(element) {
     anime({
         targets: element,
         scale: [
-            // {value: 0.1, easing: "linear", duration: 500},
             {value: 1, easing: "linear", duration: 1000},
             {value: 0, easing: "linear", duration: 500},
         ],

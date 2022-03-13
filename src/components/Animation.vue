@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import { translate } from "../composables/animate";
+import { pageAnimation } from "../composables/animate";
 export default {
     data() {
         return {};
     },
     methods: {
         animation() {
-            translate(this.$refs.box);
+            pageAnimation(this.$refs.box);
             setTimeout(() => {
                 this.$emit("anim", false);
             }, 1500);
