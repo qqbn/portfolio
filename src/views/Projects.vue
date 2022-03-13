@@ -1,9 +1,9 @@
 <template>
-    <div class="projects-box" v-if="!test">
+    <div class="projects-box" v-if="!showAnim">
         <ProjectsHeader />
         <ProjectsList />
     </div>
-    <Animation @anim="closeAnim($event)" v-if="test" />
+    <Animation @anim="closeAnim($event)" v-if="showAnim" />
 </template>
 
 <script>
@@ -18,12 +18,12 @@ export default {
     },
     data() {
         return {
-            test: true,
+            showAnim: true,
         };
     },
     methods: {
         closeAnim(n) {
-            this.test = n;
+            this.showAnim = n;
         },
     },
 };

@@ -1,5 +1,5 @@
 <template>
-    <div v-if="!test" class="start-box">
+    <div v-if="!showAnim" class="start-box">
         <div class="main-box">
             <h1>{{ header }}</h1>
             <p>
@@ -9,14 +9,15 @@
         </div>
         <Navigation />
     </div>
-    <Animation @anim="closeAnim($event)" v-if="test" />
+    <Animation @anim="closeAnim($event)" v-if="showAnim" />
 </template>
 
 <script>
 import Animation from "@/components/Animation.vue";
 import Navigation from "@/components/Navigation.vue";
-import { ref } from "@vue/reactivity";
 import textAnim from "../composables/textAnim";
+import json from "../data/text.json";
+import { ref } from "@vue/reactivity";
 export default {
     components: {
         Animation,
@@ -24,19 +25,21 @@ export default {
     },
     data() {
         return {
-            test: true,
+            showAnim: true,
         };
     },
     methods: {
         closeAnim(n) {
-            this.test = n;
+            this.showAnim = n;
         },
     },
     setup() {
+        const text = ref(null);
+        text.value = json;
         const { loop, header, par1, par2 } = textAnim([
-            "Hello there !",
-            "My name is Jakub and I am a front end developer (junior at the moment)",
-            "On this page you will learn a bit about me and my projects",
+            text.value[0],
+            text.value[1],
+            text.value[2],
         ]);
 
         loop();

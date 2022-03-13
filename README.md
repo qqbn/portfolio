@@ -1,19 +1,29 @@
-# portfolio_v1
+# My own portfolio
+
+## Technologies
+
+```
+Vue 3 (composition api + options api), anime.js, sweetalert2
+```
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).

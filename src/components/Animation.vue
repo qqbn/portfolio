@@ -28,15 +28,10 @@ export default {
 .container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    /* flex-wrap: wrap; */
     width: 100%;
     height: 100%;
-    /* margin: 0px 0px; */
-    /* padding: 10px 10px; */
 }
 .box {
-    /* width: 50px;
-    height: 50px; */
     margin: 2px;
     background: #00eb37;
 }

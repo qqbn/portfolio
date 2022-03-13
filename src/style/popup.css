@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Orbitron&display=swap");
+.swal2-modal {
+    font-family: "Orbitron", sans-serif;
+    background: black;
+    border-radius: 0;
+    width: 600px;
+    padding: 20px;
+    color: #00eb37;
+    border: #00eb37 2px dashed;
+}
+.swal2-title {
+    font-size: 18px;
+    text-align: left;
+}
+.swal2-confirm {
+    background-color: black !important;
+    color: #00eb37 !important;
+    font-family: "Orbitron", sans-serif;
+    border: 2px dashed #00eb37 !important;
+    box-shadow: none;
+    text-decoration: none;
+    height: 50px;
+    width: 70px;
+    cursor: pointer;
+}
+.swal2-confirm:hover {
+    border: 2px solid #00eb37 !important;
+}

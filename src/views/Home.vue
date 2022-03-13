@@ -9,27 +9,14 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 import Device from "@/components/Device.vue";
-import textAnim from "../composables/textAnim";
-import { ref } from "vue";
 
 export default {
     name: "Home",
     components: {
-        HelloWorld,
+        // HelloWorld,
         Device,
     },
-    data() {
-        return {};
-    },
-    setup() {},
-    mounted() {
-        // const obj = document.getElementById("header-one");
-        // // console.log(obj);
-    },
-    created() {},
 };
 </script>
 <style scoped>
@@ -48,7 +35,6 @@ h1,
 h4 {
     color: #00eb37;
     font-family: "Orbitron", sans-serif;
-    /* font-family: 'Electrolize', sans-serif; */
 }
 
 @media only screen and (max-width: 400px) {
