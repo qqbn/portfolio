@@ -1,0 +1,65 @@
+[
+    {
+        "technology": {
+            "name": "HTML",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+        },
+        "interest": "FRONT END DEVELOPMENT"
+    },
+    {
+        "technology": {
+            "name": "CSS",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        "interest": "VUE TECHNOLOGIES"
+    },
+    {
+        "technology": {
+            "name": "JAVASCRIPT",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        "interest": "DISCORD BOTS"
+    },
+    {
+        "technology": {
+            "name": "VUE.JS",
+            "url": "https://vuejs.org/guide/introduction.html"
+        },
+        "interest": "CYCLING"
+    },
+    {
+        "technology": {
+            "name": "GIT",
+            "url": "https://git-scm.com/"
+        },
+        "interest": "BASKETBALL"
+    },
+    {
+        "technology": {
+            "name": "NODE.JS",
+            "url": "https://nodejs.org/en/about/"
+        },
+        "interest": "UX/UI DESIGN"
+    },
+    {
+        "technology": {
+            "name": "VUETIFY",
+            "url": "https://vuetifyjs.com/en/introduction/why-vuetify/"
+        },
+        "interest": ""
+    },
+    {
+        "technology": {
+            "name": "ADOBE XD",
+            "url": "https://www.adobe.com/pl/products/xd.html"
+        },
+        "interest": ""
+    },
+    {
+        "technology": {
+            "name": "SQL",
+            "url": "https://dev.mysql.com/doc/"
+        },
+        "interest": ""
+    }
+]

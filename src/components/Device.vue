@@ -127,4 +127,16 @@ button {
     background: red;
     font-size: 14px;
 }
+@media only screen and (max-width: 500px) {
+    .key {
+        width: 300px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .key {
+        width: 250px;
+        height: 350px;
+    }
+}
 </style>

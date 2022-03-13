@@ -22,15 +22,12 @@ export default {
         Device,
     },
     data() {
-        return {
-            text: "You are almost there",
-            code: 1233,
-        };
+        return {};
     },
     setup() {},
     mounted() {
-        const obj = document.getElementById("header-one");
-        // console.log(obj);
+        // const obj = document.getElementById("header-one");
+        // // console.log(obj);
     },
     created() {},
 };
@@ -52,5 +49,16 @@ h4 {
     color: #00eb37;
     font-family: "Orbitron", sans-serif;
     /* font-family: 'Electrolize', sans-serif; */
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    h1 {
+        font-size: 24px;
+    }
 }
 </style>

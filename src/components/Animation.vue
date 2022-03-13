@@ -40,4 +40,9 @@ export default {
     margin: 2px;
     background: #00eb37;
 }
+@media only screen and (max-width: 500px) {
+    .container {
+        grid-template-columns: auto auto auto;
+    }
+}
 </style>

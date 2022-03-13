@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Portfolio",
+        "desc": "Code of this portfolio, u are wathcing right now",
+        "deploy": null,
+        "gh": "https://github.com/qqbn/portfolio"
+    },
+    {
+        "name": "Smart Home Interface",
+        "desc": "This app simulate, interface of smart home. Made with Vue.js(options api), Interact.js and a little bit of TypeScript",
+        "deploy": "https://amazing-colden-437102.netlify.app",
+        "gh": "https://github.com/qqbn/smart-home-interface"
+    },
+    {
+        "name": "To do app v2",
+        "desc": "So that was my first app, which I made in vue. This is version 2, rebuilded specially for my first server made with express.js. I also added a little bit of SCSS",
+        "deploy": null,
+        "gh": "https://github.com/qqbn/todoapp-v2"
+    },
+    {
+        "name": "Express backend",
+        "desc": "My first backend made with express.js. ",
+        "deploy": null,
+        "gh": "https://github.com/qqbn/todo-app-express-backend"
+    },
+    {
+        "name": "Calendar app",
+        "desc": "Simple calendar app, where you can add tasks, to every day you want. I did this, without any date/calendar libraries, just Vue.js",
+        "deploy": "http://calendar-jk23.herokuapp.com/",
+        "gh": "https://github.com/qqbn/calendar"
+    },
+    {
+        "name": "NBA stats",
+        "desc": "App for checking historical stats from nba games or single player stats. I made it with Vue.js (Vue router) and FREE API",
+        "deploy": "https://nba-stats-jk23.herokuapp.com/",
+        "gh": "https://github.com/qqbn/nba-stats"
+    },
+    {
+        "name": "Money Converter",
+        "desc": "One of my first apps, made with Vue.js(options api) and free data currency api. This app allows you to convert currencies",
+        "deploy": "http://money-converter-jk23.herokuapp.com/",
+        "gh": "https://github.com/qqbn/money-converter"
+    },
+    {
+        "name": "TIC TAC TOE",
+        "desc": "Everyone knows this game, I made it with vanilla JS.",
+        "deploy": null,
+        "gh": "https://github.com/qqbn/tictactoe"
+    },
+    {
+        "name": "TODO app",
+        "desc": "My first app, which I made in Vue.js, this app use LocalStorage",
+        "deploy": null,
+        "gh": "https://github.com/qqbn/to-do-app"
+    },
+    {
+        "name": "TAI project",
+        "desc": "This is a project for one of my study subjects. I made it with PHP, HTML and CSS",
+        "deploy": null,
+        "gh": "https://github.com/qqbn/TAI-Projekt2021"
+    },
+    {
+        "name": "landing pages",
+        "desc": "Also, you can find a repos with my landing pages, with I made, when I was learning HTML and CSS",
+        "deploy": null,
+        "gh": "https://github.com/qqbn?tab=repositories"
+    }
+]
