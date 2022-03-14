@@ -9,8 +9,8 @@
     border: #00eb37 2px dashed !important;
 }
 .swal2-title {
-    font-size: 18px;
-    text-align: left;
+    font-size: 18px !important;
+    text-align: left !important;
 }
 .swal2-confirm {
     background-color: black !important;
