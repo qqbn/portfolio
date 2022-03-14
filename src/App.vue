@@ -3,7 +3,7 @@
 </template>
 
 <style>
-@import "./style/popup.css";
+/* @import "./style/popup.css"; */
 @import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Orbitron&display=swap");
 * {
     padding: 0;

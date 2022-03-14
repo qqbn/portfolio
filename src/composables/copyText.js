@@ -8,11 +8,17 @@ const copyText = () => {
             Swal.fire({
                 title: "Hey you just copied to clipboard my contact email: " + text,
                 buttonsStyling: false,
+                customClass: {
+                    container: popup,
+                },
             });
         } else {
             Swal.fire({
                 title: "Hey you just copied to clipboard my discord tag: " + text,
                 buttonsStyling: false,
+                customClass: {
+                    container: popup,
+                },
             });
         }
     };
