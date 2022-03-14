@@ -7,7 +7,7 @@
         <div class="row" v-for="tech in techs" :key="tech">
             <div class="left-table-header">
                 <p>
-                    <a :href="tech.technology.url">{{
+                    <a :href="tech.technology.url" target="_blank">{{
                         tech.technology.name
                     }}</a>
                 </p>
