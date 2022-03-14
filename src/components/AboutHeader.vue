@@ -43,7 +43,6 @@ export default {};
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: red; */
 }
 .right-box {
     display: flex;
@@ -51,7 +50,6 @@ export default {};
     align-items: center;
     height: 100%;
     width: 30%;
-    /* background: blue; */
     flex-direction: column;
 }
 .avatar {
