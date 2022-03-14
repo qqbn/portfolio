@@ -7,12 +7,12 @@
             </div>
             <div class="right">
                 <div class="left-img" v-if="project.deploy">
-                    <a :href="project.deploy">
+                    <a :href="project.deploy" target="_blank">
                         <img class="icon" src="@/assets/www.png" alt=""
                     /></a>
                 </div>
                 <div class="right-img">
-                    <a :href="project.gh">
+                    <a :href="project.gh" target="_blank">
                         <img class="icon" src="@/assets/gh.png" alt="" />
                     </a>
                 </div>

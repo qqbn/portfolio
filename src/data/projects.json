@@ -8,7 +8,7 @@
     {
         "name": "Smart Home Interface",
         "desc": "This app simulate, interface of smart home. Made with Vue.js(options api), Interact.js and a little bit of TypeScript",
-        "deploy": "https://amazing-colden-437102.netlify.app",
+        "deploy": "https://trusting-bassi-051f94.netlify.app",
         "gh": "https://github.com/qqbn/smart-home-interface"
     },
     {

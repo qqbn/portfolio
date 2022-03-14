@@ -1,6 +1,6 @@
 import {ref} from "vue";
 import Swal from "sweetalert2";
-import popup from "../style/popup.css";
+import popup from "@/style/popup.css";
 const copyText = () => {
     const saveText = (text, id) => {
         navigator.clipboard.writeText(text);
