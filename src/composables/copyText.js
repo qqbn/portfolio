@@ -9,7 +9,7 @@ const copyText = () => {
                 title: "Hey you just copied to clipboard my contact email: " + text,
                 buttonsStyling: false,
                 customClass: {
-                    container: popup,
+                    popup: "swal2-modal",
                 },
             });
         } else {
@@ -17,7 +17,7 @@ const copyText = () => {
                 title: "Hey you just copied to clipboard my discord tag: " + text,
                 buttonsStyling: false,
                 customClass: {
-                    container: popup,
+                    popup: "swal2-modal",
                 },
             });
         }
