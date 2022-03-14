@@ -15,7 +15,7 @@
             />
         </div>
         <div class="icon">
-            <a href="https://github.com/qqbn">
+            <a href="https://github.com/qqbn" target="_blank">
                 <img src="@/assets/gh.png" alt="icon" />
             </a>
         </div>
